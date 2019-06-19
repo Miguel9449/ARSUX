@@ -1,0 +1,10 @@
+struct FAfluids {
+    long id; //@key
+    double flowIn; // 0
+    double flowout; // 0
+    double temperatureOut; // 293.15
+    double ARSmolefracs[4]; // [0.21, 0.0140891, 0.0026316, 0.00002]
+    double condensationKGS; // 0
+    double CO2kelvins; // 300.15
+    double CO2Pa; // 101325
+};

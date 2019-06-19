@@ -1,0 +1,6 @@
+struct ECLSSuser {
+    long id; //@key
+    long state;
+    long rank;
+    boolean RelearnCurrent; // FALSE
+};

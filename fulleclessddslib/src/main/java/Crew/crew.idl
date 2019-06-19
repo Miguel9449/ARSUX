@@ -1,0 +1,10 @@
+struct crew {
+    long   id;  //@key
+    long   state;
+    double crew1; // 1
+    double crew2; // 1
+    double crew3; // 1
+    double crew4; // 1
+    double timeofday;
+    };
+    

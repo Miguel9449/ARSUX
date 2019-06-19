@@ -1,0 +1,17 @@
+struct WPcommands {
+    long id; //@key
+    long state;
+    long rank;
+    double WPSV01211; // 0
+    double WPPM4111; // 0   
+    double WPSM4121; // 0   
+    double WPPP4117; // 0   
+    double WPSV01212; // 0   
+    double WPSV11211; // 0   
+    double WPSV0133; // 0   
+    double WPSV11212; // 0   
+    double WPSV0122; // 0   
+    double WPSV11213; // 0   
+    double WPSV1101; // 0   
+    double WPSV11261; // 0    
+};

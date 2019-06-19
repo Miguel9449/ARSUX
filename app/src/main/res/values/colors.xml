@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="forest_green">#176E17</color>
+    <color name="light_green">#C7F8C7</color>
+
+    <color name="hotBedColor">#4FF44336</color>
+    <color name="transitionBedColor">#904CAF50</color>
+    <color name="coolBedColor">#4F00BCD4</color>
+    <color name="schematicBackgroundColor">#585959</color>
+</resources>

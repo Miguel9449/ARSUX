@@ -1,0 +1,7 @@
+struct UWMScommands {
+    long id; //@key
+    long state;
+    long rank;
+    double SV01; // 0
+    double SV03; // 0
+};

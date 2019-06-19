@@ -1,0 +1,6 @@
+struct UPAon {
+    long id; //@key
+    long state;
+    long rank;
+    double UPAon; // 0
+};

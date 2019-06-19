@@ -1,0 +1,10 @@
+struct InstantMetRates {
+    long id; //@key
+    double water; // 0.00007037
+    double SensibleWatts; // 178.8881
+    double oxygen; // 0.00002404
+    double CO2; // 0.00003069
+    double Micturition; // 0
+    double WaterUsekgs; // 0
+    double HabHeatWatts; // 1000
+};

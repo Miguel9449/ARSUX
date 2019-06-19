@@ -1,0 +1,14 @@
+struct OGfluids {
+    long id; //@key
+    double WD2OGkgs; // 0
+    double OG2WWkgs; // 0
+    double OG2WWkelvins; // 293.15
+    double OGO2kgs; // 0
+    double OGO2molpers[4]; // [0, 0, 0, 0]
+    double OGO2kelvins; // 293.15
+    double FA2SAkgs; // 0
+    double OG2HabHeatW; // 70
+    double OGH2kelvins; // 293.15
+    double SA2WWkgs; // 0
+    double SA2WWkelvins; // 290
+};

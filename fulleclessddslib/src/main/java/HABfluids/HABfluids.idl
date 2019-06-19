@@ -1,0 +1,9 @@
+struct HABfluids {
+    long id; //@key
+    double temperature; // 293.15
+    double pressure; // 0
+    double ARSOutletPressure; // 0
+    double HABmolefracs[4]; // [0.21, 0.0140891, 0.0026316, 0.00002]
+    double WD2Habkgs; // 0
+    double Hab2WWkgs; // 0
+};

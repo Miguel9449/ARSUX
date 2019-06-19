@@ -1,0 +1,29 @@
+struct WPsensors {
+    long id; //@key
+    long state;
+    double WPQ71831; // 2
+    double WPQ71832; // 2
+    double WPQ71833; // 2
+    double WPQ71834; // 2
+    double WPPG71171; // 103451
+    double WPPG71172; // 103451
+    double WPC71912; // 0.000025
+    double WPC71943; // 0.000004
+    double WPG81481; // 1
+    boolean WPLLLS; // TRUE
+    boolean WPLLS; // TRUE
+    boolean WPHLS; // FALSE
+    boolean WPHHLS; // FALSE
+    boolean WPN8005; // FALSE
+    boolean WPN8004; // FALSE
+    double WPT71441; // 385
+    double WPT71442; // 385
+    double WPT70475; // 293
+    double WPT70476; // 293
+    double WPN8008; // 0
+    double WPPG71131; // 115142
+    double WPT70471; // 293.14   
+    double WPPG71124; // 137895  
+    double kgMakeup; //0
+    long fault;
+};

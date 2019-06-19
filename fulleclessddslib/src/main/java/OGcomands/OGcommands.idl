@@ -1,0 +1,18 @@
+struct OGcommands {
+    long id; //@key
+    long state;
+    long rank;
+    double OGPM4051; // 0
+    double OGSM4052; // 0   
+    double OGSV01312; // 0   
+    double OGSV0122; // 0   
+    double OGSV0581; // 0   
+    double OGStackCurrent; // 0   
+    double OGSV0322; // 0   
+    double OGSV03212; // 0   
+    double OGSV03213; // 0   
+    double OGSV16421; // 0   
+    double OGSV02211; // 0   
+    double OGSV02212; // 0   
+    double OGHTR8095; // 0   
+};

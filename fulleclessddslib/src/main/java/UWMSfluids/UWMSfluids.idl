@@ -1,0 +1,5 @@
+struct UWMSfluids {
+    long id; //@key
+    double WD2UWMSkgs; // 0
+    double UWMS2UPAkgs; // 0
+};

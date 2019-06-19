@@ -1,0 +1,11 @@
+struct UPAcommands {
+    long id; //@key
+    long state;
+    long rank;
+    double BPA; // 0
+    boolean Replace; // FALSE
+    double M1; // 0
+    double M2; // 0
+    double M4; // 50
+    boolean DrainARFTA; // FALSE
+};

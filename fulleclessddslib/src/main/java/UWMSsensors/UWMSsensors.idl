@@ -1,0 +1,8 @@
+struct UWMSsensors {
+    long id; //@key
+    long state;
+    double Micturition; // 0
+    double P; // 0
+    double S01; // 0
+    long fault;
+};

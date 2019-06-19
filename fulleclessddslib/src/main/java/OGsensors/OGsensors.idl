@@ -1,0 +1,24 @@
+struct OGsensors {
+    long id; //@key
+    long state;
+    double OGP73211; // 165480   
+    double OGP73212; // 165480   
+    double OGT75411; // 293.15   
+    double OGT75412; // 293.15   
+    double OGDP7131; // 0   
+    double OGN80011; // 0   
+    double OGF75311; // 0   
+    double OGF75313; // 0   
+    double OGP7111; // 165480   
+    double OGRSAquantity; // 29   
+    double OGG82421; // 1   
+    double OGCS71912; // 0.1   
+    double OGN80012; // 0   
+    double OGP7312; // 100   
+    double OGP73113; // 101325   
+    double OGP71211; // 101325   
+    double OGP71212; // 101325   
+    double OGT72411; // 293.15   
+    double OGT72412; // 293.15
+    long fault;
+};

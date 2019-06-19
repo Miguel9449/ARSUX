@@ -1,0 +1,5 @@
+struct UWMSuser {
+    long id; //@key
+    double Micturition; // 0
+    double Slug; // 0
+};

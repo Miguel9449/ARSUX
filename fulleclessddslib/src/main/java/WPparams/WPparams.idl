@@ -1,0 +1,8 @@
+struct WPparams {
+    long id; //@key
+    long state;
+    long rank;
+    double T_MTCL_K; // 289.81667
+    double PROCESSkgs; // 0.00063000
+    double DELIVERYkgs; // 0.090719
+};

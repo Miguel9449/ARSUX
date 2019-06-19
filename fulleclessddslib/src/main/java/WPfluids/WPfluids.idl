@@ -1,0 +1,7 @@
+struct WPfluids {
+    long id; //@key
+    double WDPa; // 210000
+    double WDkelvins; // 293.15
+    double WWPa; // 101325
+    double WPAvapor; // 0.000000013622
+};

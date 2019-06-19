@@ -1,0 +1,10 @@
+struct WPuser {
+    long id; //@key
+    long state;
+    long rank;
+    double WWkgMin; //2
+    double WWkgTrip; //11
+    double WSkgMin; //2
+    double WSkgTrip; //45
+    double WSkgMax; //54
+};

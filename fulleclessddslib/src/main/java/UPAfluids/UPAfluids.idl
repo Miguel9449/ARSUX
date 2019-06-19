@@ -1,0 +1,7 @@
+struct UPAfluids {
+    long id; //@key
+    double UPA2WWkelvins; // 310.15
+    double UPA2WWkgs; // 0
+    double BPAVaporkgs; // 0
+    double BPA2HabHeatW; // 0
+};

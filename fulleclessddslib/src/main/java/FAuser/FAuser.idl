@@ -1,0 +1,9 @@
+struct FAuser {
+    long id; //@key
+    long state;
+    long rank;
+    double HEXSetTimes[4]; //[0 28800 39600 86399.9]
+    double HEXSetPoints[4]; //[300.15 300.15 300.15 300.15]
+    double Fn01rpm; //14000
+    double HEXcontrolgain; //0.0001
+};

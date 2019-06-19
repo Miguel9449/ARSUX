@@ -1,0 +1,52 @@
+<!--Temperature Sensor schematic point-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:width="100dp"
+    android:height="24dp"
+
+    android:viewportWidth="100.0"
+    android:viewportHeight="24.0">
+
+    <group
+        android:name="rotationGroup"
+        android:pivotX="10.0"
+        android:pivotY="10.0"
+        android:rotation="0.0" >
+
+        <path
+            android:fillColor="#050505"
+            android:pathData="M12.0, 0.0
+                                a 12.0,12.0  0  0,0 -12.0, 12.0
+                                a-12.0,12.0  0  0,1  12.0, 12.0
+                                l76.0, 0.0
+                                a12.0,12.0   0  0,0   12.0, -12.0
+                                a12.0,12.0   0  0,0  -12.0, -12.0 z" />
+
+        <path
+            android:fillColor="#F8F8F7"
+            android:pathData="M12.2, 0.4
+                                a 11.6,11.6  0  0,0 -11.6, 11.6
+                                a-11.6,11.6  0  0,1  11.6, 11.6
+                                l75.6, 0.0
+                                a11.6,11.6   0  0,0   11.6, -11.6
+                                a11.6,11.6   0  0,0  -11.6, -11.6 z" />
+
+
+        <path
+            android:name="letter"
+            android:fillColor="#030303"
+            android:pathData="M7.0, 3.5   l 18.0,  0.0
+                                          l  0.0,  4.0
+                                          l-18.0,  0.0 z"/>
+
+        <path
+            android:name="letter2"
+            android:fillColor="#030303"
+            android:pathData="M14.0, 8.5   l 4.0,  0.0
+                                           l  0.0,  13.0
+                                           l-4.0,  0.0 z"/>
+
+
+
+    </group>
+</vector>

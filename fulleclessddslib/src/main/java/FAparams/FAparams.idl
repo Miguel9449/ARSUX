@@ -1,0 +1,10 @@
+struct FAparams {
+    long id; //@key
+    long state;
+    long rank;
+    double CHXscalingfactor; // 1
+    double CHXcoolantpph; // 1230
+    double HTCOtemperatureK[15]; //[458 474 499 515 531 539 551 566 574 614 622 646 662 663 666]
+    double HTCOefficiency[15]; //[0 0.0027 0.021 0.043 0.088 0.122 0.158 0.257 0.443 0.677 0.762 0.855 0.902 0.936 0.952]
+    double HTCOheaterScalingFactor; //1
+};

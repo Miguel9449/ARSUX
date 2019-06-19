@@ -1,0 +1,6 @@
+struct OGuser {
+    long id; //@key
+    long state;
+    long rank;
+    double current; // 23.9354
+};

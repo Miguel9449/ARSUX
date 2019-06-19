@@ -1,0 +1,6 @@
+struct FAon {
+    long id; //@key
+    long state;
+    long rank;
+    double FAon; // 0
+};

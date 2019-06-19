@@ -1,0 +1,27 @@
+struct FAcommands {
+    long id; //@key
+    long state;
+    long rank;
+    double AR_Vv02_Enable_CMD; // 0
+    double AR_Vv02_Direction_CMD; // -1
+    double AR_Fn01_Speed_CMD; // 0
+    double AR_Ht09_CMD; // 0
+    double AR_VMVv01_CMD; // 1
+    double AR_Fn02_Speed_CMD; // 0
+    double AR_Pp01_CMD; // 0
+    double AR_Vv03_Enable_CMD; // 0
+    double AR_Vv03_Direction_CMD; // -1
+    double AR_Ht0102_CMD; // 0
+    double AR_Vv04_CMD; // 0
+    double AR_Ht0304_CMD; // 0
+    double AR_Vv05_CMD; // 0
+    double AR_Vv06_Enable_CMD; // 0
+    double AR_Vv06_Direction_CMD; // -1
+    double AR_Vv07_CMD; // 0
+    double AR_Vv08_CMD; // 0
+    double AR_Ht0506_CMD; // 0
+    double AR_Ht0708_CMD; // 0
+    double AR_Vv09_CMD; // 0
+    double AR_CMP_CMD; // 0
+    double AR_Vv10_CMD; // 0
+};

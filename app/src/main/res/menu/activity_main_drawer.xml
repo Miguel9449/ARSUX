@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                app:actionLayout="@layout/badge_view_home"
+                android:title="@string/menu_home" />
+        </menu>
+    </item>
+
+
+    <item android:title="Integrated ECLSS Functions" >
+        <menu>
+            <item
+                android:id="@+id/nav_ARS_A"
+                android:title="Air Revitalization System A"
+                app:actionLayout="@layout/badge_view_ars_a" />
+            <item
+                android:id="@+id/nav_ARS_B"
+                android:title="Air Revitalization System B"
+                app:actionLayout="@layout/badge_view_ars_b"
+                />
+            <item
+                android:id="@+id/nav_OGA"
+                android:title="Oxygen Generation Assembly"
+                app:actionLayout="@layout/badge_view_oga"
+                 />
+            <item
+                android:id="@+id/nav_Sab"
+                android:title="Sabatier"
+                app:actionLayout="@layout/badge_view_sab"
+                 />
+            <item
+                android:id="@+id/nav_WPA"
+                android:title="Water Processor Assembly"
+                app:actionLayout="@layout/badge_view_wpa"
+                 />
+            <item
+                android:id="@+id/nav_UPS"
+                android:title="Urine Processor"
+                app:actionLayout="@layout/badge_view_ups"
+                 />
+            <item
+                android:id="@+id/nav_HMS"
+                android:title="Universal Waste Management System"
+                app:actionLayout="@layout/badge_view_hms"
+                 />
+        </menu>
+    </item>
+
+    <item android:title="System Infrastructure">
+        <menu>
+            <item
+                android:id="@+id/nav_consumables"
+                android:title="Consumables"
+                app:actionLayout="@layout/badge_view_consumables"
+                />
+            <item
+                android:id="@+id/nav_power"
+                android:title="Power System"
+                app:actionLayout="@layout/badge_view_power"
+                 />
+            <item
+                android:id="@+id/nav_Cybernetics"
+                android:title="Cybernetics"
+                app:actionLayout="@layout/badge_view_cyber"/>
+        </menu>
+
+    </item>
+
+    <item android:title="Utilities">
+        <menu>
+            <item
+                android:id="@+id/nav_Model"
+                android:title="Model Utitlies"
+                app:actionLayout="@layout/badge_view_oga"/>
+            <item
+                android:id="@+id/nav_logger"
+                android:title="GUI Output Monitor"
+                app:actionLayout="@layout/badge_view_logger"/>
+            <item
+                android:id="@+id/nav_about"
+                android:title="About"
+                app:actionLayout="@layout/badge_view_about"/>
+            <item
+                android:id="@+id/nav_exit"
+                android:title="Exit GUI"
+                app:actionLayout="@layout/badge_view_exitgui"/>
+        </menu>
+    </item>
+
+</menu>

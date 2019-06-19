@@ -1,0 +1,10 @@
+struct HABparams {
+    long id; //@key
+    long state;
+    long rank;
+    double AirVolume; // 55
+    double DistrEqLength; // 8.44
+    double CrewParameters[12]; //[3,2,2,2,5,5,8,0,1.5,1.778,0,0.7]
+    double HabHeatTimes[2]; //[0 12]   
+    double HabHeat[2]; //[1000 1000]
+};

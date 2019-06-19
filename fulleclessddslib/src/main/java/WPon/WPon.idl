@@ -1,0 +1,6 @@
+struct WPon {
+    long id; //@key
+    long state;
+    long rank;
+    double WPon; // 0
+};

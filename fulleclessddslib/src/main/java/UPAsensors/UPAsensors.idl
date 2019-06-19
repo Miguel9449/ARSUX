@@ -1,0 +1,11 @@
+struct UPAsensors {
+    long id; //@key
+    long state;
+    double WSTAkg; // 0.1
+    double ARFTAkg; // 1.1
+    double BPAkg; // 0.1
+    double S2; // 0
+    double S5; // 0
+    double K1; // 200
+    long fault;
+};

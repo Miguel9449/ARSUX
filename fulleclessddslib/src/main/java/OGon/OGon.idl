@@ -1,0 +1,6 @@
+struct OGon {
+    long id; //@key
+    long state;
+    long rank;
+    double OGon; // 0
+};
